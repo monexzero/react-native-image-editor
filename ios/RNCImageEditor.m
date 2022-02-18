@@ -17,8 +17,8 @@
 #import <React/RCTImageStoreManager.h>
 #import "RNCFileSystem.h"
 #import "RNCImageUtils.h"
-#if __has_include(<RCTImage/RCTImageUtils.h>)
-#import <RCTImage/RCTImageUtils.h>
+#if __has_include(<React/RCTImageUtils.h>)
+#import <React/RCTImageUtils.h>
 #else
 #import "RCTImageUtils.h"
 #endif
